@@ -1,0 +1,22 @@
+{
+  "name": "scribble3d-server",
+  "version": "1.0.0",
+  "description": "Scribble3D backend - Express + MongoDB agentic pipeline that turns sketches/prompts into persistent 3D scene objects",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
