@@ -1,4 +1,4 @@
-# Scribble3D — MERN Edition
+# Scribble3D — MERN 
 
 Turn a sketch and/or a text prompt into a 3D object that gets added to one persistent scene called **"Late Night Lab."** Every object you generate stays in that scene — say "draw a room with windows," then "generate a man," then "add a tree," and all three show up together in the same react-three-fiber viewer. Click any object to select it, then generate again to edit it in place (recolor / resize / move / rebuild) instead of creating a duplicate. Export the whole scene as GLTF/GLB or a PNG snapshot.
 
